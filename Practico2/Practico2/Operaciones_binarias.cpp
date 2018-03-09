@@ -1,21 +1,22 @@
 #include "Operaciones_binarias.h"
+#include "stdafx.h"
 
-int bAnd()
-{
-	return 0;
+int bAnd(int a, int b)
+{	
+	return a & b;
 }
 
-int bOr()
+int bOr(int a, int b)
 {
-	return 0;
+	return a | b;
 }
 
-int sl2()
+int sl2(int a)
 {
-	return 0;
+	return a << 2;
 }
 
-int sr2()
+int sr2(int a)
 {
-	return 0;
+	return a >> 2;
 }

@@ -1,4 +1,4 @@
 #pragma once
 
-void concate(char* a, char* b);
+void concatenate(std::string a, std::string b);
 

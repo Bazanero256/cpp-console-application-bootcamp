@@ -1,9 +1,9 @@
 #pragma once
 
-int bAnd();
+int bAnd(int a, int b);
 
-int bOr();
+int bOr(int a, int b);
 
-int sl2();
+int sl2(int a);
 
-int sr2();
+int sr2(int a);

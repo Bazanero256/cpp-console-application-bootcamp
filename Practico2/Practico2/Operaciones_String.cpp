@@ -2,18 +2,7 @@
 #include "stdafx.h"
 #include <iostream>
 
-bool areEqual(char* a, char* b)
+bool areEqual(std::string string1, std::string string2)
 {
-	bool result = true;
-	if (sizeof(a) != sizeof(b)) {
-		result = false;
-	}
-	else {
-		int i = 0;
-		while ((i < sizeof(a)) && result) {
-			i++;
-			result = a[i] == b[i];
-		}
-	}
-	return result;
+	return string1.compare(string2); //returns 0 if the two strings are equal.
 }

@@ -1,4 +1,5 @@
 #pragma once
 
-void concatenate(std::string a, std::string b);
+void concatenate(int var1, int var2);
 
+void printLiteraL();

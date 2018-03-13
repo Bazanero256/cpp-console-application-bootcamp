@@ -1,3 +1,3 @@
 #pragma once
 
-bool areEqual(char* a, char* b);
+bool areEqual(std::string string1 , std::string string2);

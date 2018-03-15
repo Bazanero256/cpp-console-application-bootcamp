@@ -1,6 +1,6 @@
 #include "Operaciones_string.h"
 #include "stdafx.h"
-#include <iostream>
+#include <string>
 
 bool areEqual(std::string string1, std::string string2)
 {

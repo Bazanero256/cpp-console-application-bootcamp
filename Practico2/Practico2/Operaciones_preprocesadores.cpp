@@ -7,7 +7,6 @@
 #define STR_AGAIN(s) #s
 
 void concatenate(int var1, int var2) {
-	int JOIN(var1, var2) = 0;
 	std::cout << "El nombre de la variables concatenadas es : " << STR(JOIN(var1, var2)) << std::endl;
 }
 
